@@ -70,6 +70,9 @@
 
 .skin {
   background-color: #fff !important; 
+  position: relative;
+    background-color: #fff !important;
+    z-index: -2;
 }
 
 .dark-texture {
