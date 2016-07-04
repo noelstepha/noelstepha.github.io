@@ -3,105 +3,34 @@
 		<div class="padding-50">
    			<div class="row">
 				<div class="col-md-12 padding-50">
-					<h3 class="uppercase">Professional timeline</h3>
+					<h3 class="uppercase">Experience</h3>
 				</div>
 			</div>
-			<div class="row">
-				<div class="hidden-xs col-md-12">
-					<div class="timeline timeline-alternating blue-grey-grey timeline-with-arrows"> <!-- Main element container -->
-						<div class="timeline-block">	<!-- Single block -->
-							<div class="timeline-icon timeline-icon-hide-border"><i class="fa fa-certificate fa-lg"></i></div> <!-- Icon on the timeline -->
-							<div class="arrow-right"></div>
-							<div class="timeline-content"> 
-								<div class="row">
-									<div class="col-md-12">
-										<a href="http://www.prima-solutions.com/?lang=en"><img src="assets/logo.png"/></a>
-									</div>
-								</div>
-								
-								<br>
-								<p> 
-									<div class="quote">
-										<h2 class="font-accident-two-normal uppercase">Prima Solutions, Paris</h2> 
-										<h4 class="uppercase">Full Stack Developer</h4>
-									</div>
-									<br>
-									<ul>
-										<li><i class="fa fa-chevron-right"></i> Use Scrum, Agile and Test-Driven Development methodologies.</li>
-										<li><i class="fa fa-chevron-right"></i> Interact with business analysts to understand and specify user stories.</li> 
-										<li><i class="fa fa-chevron-right"></i> Develop and maintain the application through the architecture, design, development, test, deploy and delivery phases.</li> 
-										<li><i class="fa fa-chevron-right"></i> Participate to design meeting, code review and commit control.</li> 
-									</ul> 
-								</p>
-								<div class="timeline-date">December, 2014 - Today</div> <!-- Date -->
-							</div>
-						</div>
-						<div class="timeline-block">
-							<div class="timeline-icon timeline-icon-hide-border"><i class="fa fa-certificate fa-lg"></i></div> <!-- Icon on the timeline -->
-							<div class="timeline-content">
-								<div class="row">
-									<div class="col-md-12">
-										<a href="http://www.orange.com/en/home"><img src="assets/orange.png"/></a>
-									</div>
-								</div>
-								<br>
-								<p>	
-									<div class="quote">
-										<h2 class="font-accident-two-normal uppercase">Orange, Toulouse</h2>
-										<h4 class="uppercase">Software developer</h4>
-									</div>
-									<br>
-									Responsible for creating a server connected with an existing mobile application (Marketing, Image processing, C, and Java SE/EE)
-									<ul>
-										<li><i class="fa fa-chevron-right"></i> Planned the entire project by myself. </li> 
-										<li><i class="fa fa-chevron-right"></i> Designed the model using UML tools. </li> 
-										<li><i class="fa fa-chevron-right"></i> Realised presentations for clients. </li> 
-										<li><i class="fa fa-chevron-right"></i> Developed and submit the work in the appropriate deadlines. </li> 
-										<li><i class="fa fa-chevron-right"></i> Helped the marketing team in their work.</li> 
-									</ul>
-								</p>
-								<div class="timeline-date">5-months internship</div>
-							</div>
-						</div>
+			{{#timeline-list}}
+				<div class="exp">
+					<div class="hgroup">
+						<h4>Full Stack Developer</h4>
+						<h5>December 2014 - Today</h5>
+						<h5 class="location">Paris</h5>
+						<h5 class="information uppercase"><a href="http://www.prima-solutions.com/?lang=en">Prima Solutions</a></h5>
 					</div>
-				</div>
-				<div class="visible-xs col-xs-12 timeline-content">
-					<div class="row">
-						<div class="col-md-12">
-							<a href="http://www.prima-solutions.com/?lang=en"><img src="assets/logo.png"/></a>
-						</div>
-					</div>
-					
-					<br>
-					<p> 
-						<div class="quote">
-							<h2 class="font-accident-two-normal uppercase">Prima Solutions, Paris</h2> 
-							<h4 class="uppercase">Full Stack Developer</h4>
-							<span>December, 2014 - Today</span> 
-						</div>
-						<br>
+					<p>
 						<ul>
 							<li><i class="fa fa-chevron-right"></i> Use Scrum, Agile and Test-Driven Development methodologies.</li>
 							<li><i class="fa fa-chevron-right"></i> Interact with business analysts to understand and specify user stories.</li> 
 							<li><i class="fa fa-chevron-right"></i> Develop and maintain the application through the architecture, design, development, test, deploy and delivery phases.</li> 
 							<li><i class="fa fa-chevron-right"></i> Participate to design meeting, code review and commit control.</li> 
-						</ul> 
+						</ul>
 					</p>
 				</div>
-				<div class="visible-xs col-xs-12 timeline-content">
-					<div class="row">
-						<div class="col-md-12">
-							<a href="http://www.orange.com/en/home"><img src="assets/orange.png"/></a>
-						</div>
+				<div class="exp">
+					<div class="hgroup">
+						<h4>Internship, Software developer</h4>
+						<h5>April 2013 - August 2013</h5>
+						<h5 class="location">Toulouse</h5>
+						<h5 class="information uppercase"><a href="http://www.orange.com/en/home">Orange</a></h5>
 					</div>
-					<br>
-					<p>	
-						<div class="quote">
-							<h2 class="font-accident-two-normal uppercase">Orange, Toulouse</h2>
-							<h4 class="uppercase">Software developer</h4>
-							<span>5-months internship</span>
-						</div>
-						<br>
+					<p>
 						Responsible for creating a server connected with an existing mobile application (Marketing, Image processing, C, and Java SE/EE)
 						<ul>
 							<li><i class="fa fa-chevron-right"></i> Planned the entire project by myself. </li> 
@@ -112,7 +41,7 @@
 						</ul>
 					</p>
 				</div>
-			</div>
+			{{/timeline-list}}
 		</div>
 	</div>
 </section>

@@ -1,0 +1,112 @@
+.timeline {
+    position: relative;
+}
+
+.timeline:before {
+    background: #ec7063;
+    background: -moz-linear-gradient(top,  #ec7063  1%, #a03737  75%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#a03737 ), color-stop(75%,#a03737 ), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top,  #ec7063  1%,#a03737  75%,#ffffff 100%);
+    background: -o-linear-gradient(top,  #ec7063  1%,#a03737  75%,#ffffff 100%);
+    background: -ms-linear-gradient(top,  #ec7063  1%,#a03737  75%,#ffffff 100%);
+    background: linear-gradient(to bottom,  #ec7063  1%,#a03737  75%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec7063', endColorstr='#ffffff',GradientType=0 );
+    bottom: 0;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 50px;
+    width: 1px;
+    height: 95%;
+}
+
+.timeline:after {
+    border: 1px solid #ec7063;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #712424;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.timeline.experience:after {
+    content: '\f0b1';
+}
+
+.timeline.education:after {
+    content: '\f19d';
+}
+
+.exp {
+    padding-left: 50px;
+    padding-top: 12px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.exp:after {
+    background: #ec7063;
+    border: 3.5px solid #ffffff;
+    border-style: double;
+    content: "";
+    height: 15px;
+    left: 12px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    width: 15px;
+}
+
+.exp-holder {
+    margin-top: 70px;
+}
+
+.exp .hgroup h4, .exp .hgroup h5 {
+    margin-bottom: 10px;
+}
+
+.exp .hgroup {
+    margin-bottom: 5px;
+}
+
+.exp .hgroup h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    padding-left: 20px;
+}
+
+.exp .hgroup h5:before {
+    position: absolute;
+    left: 50px;
+    content: '\f073';
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.exp .hgroup h5.location:before {
+    position: absolute;
+    left: 50px;
+    content: '\f041';
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.exp .hgroup h5.information:before {
+    position: absolute;
+    left: 50px;
+    content: '\f05a';
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.exp .hgroup h5 span.current {
+    color: #ffffff;
+    background: #ec7063;
+    padding: 1px 12px;
+}
