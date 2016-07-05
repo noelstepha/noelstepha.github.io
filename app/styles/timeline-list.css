@@ -34,11 +34,7 @@
     line-height: 45px;
 }
 
-.timeline.experience:after {
-    content: '\f0b1';
-}
-
-.timeline.education:after {
+.timeline:after {
     content: '\f19d';
 }
 

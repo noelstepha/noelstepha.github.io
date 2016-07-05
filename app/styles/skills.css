@@ -1,0 +1,16 @@
+ #skills .category-title { 
+  line-height: 22px;
+  border-bottom: 1px dotted #021533;
+  padding-bottom: 5px;
+  padding-top:3%;
+}
+
+#skills .ranking h5 {
+  display: inline;
+  margin-left:1%;
+}
+
+#skills .ranking i {
+  font-size: 20px;
+  color: #f4d03f;
+}
