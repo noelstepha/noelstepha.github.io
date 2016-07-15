@@ -1,8 +1,9 @@
  #skills .category-title { 
   line-height: 22px;
-  border-bottom: 1px dotted #021533;
+  border-bottom: 1px dotted #75342d;
   padding-bottom: 5px;
   padding-top:3%;
+  color: #75342d;
 }
 
 #skills .ranking h5 {
@@ -13,4 +14,12 @@
 #skills .ranking i {
   font-size: 20px;
   color: #f4d03f;
+}
+
+#skills .flag {
+	width:40px;
+}
+
+#skills .language-item {
+	margin-bottom: 5px;
 }
