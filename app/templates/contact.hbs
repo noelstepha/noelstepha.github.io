@@ -1,1 +1,48 @@
-{{outlet}}
+<section id="skills" class="main-content container-fluid nopadding">
+    <div class="row nopadding skin">
+    	<div class="padding-50">
+    		<div class="row">
+				<div class="col-md-12 section-title">
+					<h3 class="uppercase">Contact</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 section-title">
+					<div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+		              <div class="title only pull-right">+33 7 88 49 12 38</div>
+		            </div>
+		            <div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+		              <div class="title only pull-right">stephanie.c.noel@gmail.com</div>
+		            </div>
+		            <div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
+		              <div class="title only pull-right">stephanie.c.noel</div>
+		            </div>
+				</div>
+				<div class="col-md-6 section-title">
+					<div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+		              <div class="title only pull-right">https://github.com/noelstepha/</div>
+		            </div>
+		            <div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+		              <div class="title only pull-right">https://twitter.com/Noel_Stepha</div>
+		            </div>
+		            <div class="contact-item">
+		              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+		              <div class="title only pull-right">www.linkedin.com/in/stephanie-noel-4014b662</div>
+		            </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					{{#g-map lat=48.847768 lng=2.331114 zoom=15 as |context|}}
+					  {{g-map-marker context lat=48.847768 lng=2.331114}}
+					{{/g-map}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
