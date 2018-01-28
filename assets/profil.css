@@ -1,0 +1,85 @@
+@import url('header.css');
+@import url('home.css');
+@import url('resume.css');
+@import url('education.css');
+@import url('skills.css');
+@import url('contact.css');
+@import url('colors.css');
+@import url('hover.css');
+@import url('timeline-list.css');
+
+body {
+    /*background-image: url("../img/pic08.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    /*background: #FFA17F; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #FFA17F , #00223E); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #FFA17F , c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #515556;
+    background-image: url("http://www.transparenttextures.com/patterns/black-linen.png");
+    margin-right: auto;
+    margin-left:auto;
+    max-width: 1200px;
+    width:100%;
+    font-size:14px;
+}
+
+
+.nopadding {
+  padding: 0 !important;
+  margin:0 !important;
+}
+
+.big-size {
+  font-size: 35px;
+  margin: 10px 16px;
+  line-height: 1.3333333;
+}
+
+.big-font {
+  font-weight: 700;
+}
+.padding-50 {
+    padding: 35px 50px 40px 50px;
+}
+
+.section-title {
+	padding-bottom: 5%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+.hvr-sweep-to-bottom:before,
+.hvr-sweep-to-right:before ,
+.hvr-sweep-to-left:before {  
+  height: 120px;  
+  
+}
+
+.hvr-sweep-to-bottom:before { 
+  background: rgba(0,0,0,.05);  
+}
+
+.hvr-sweep-to-right:before {  
+  background: rgba(255,255,255,.1);  
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-left: 0;
+}
+
+ul li {
+    padding: 0;
+}
+ul li a {
+  cursor: pointer;
+}
+
