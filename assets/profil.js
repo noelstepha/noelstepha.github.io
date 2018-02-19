@@ -978,7 +978,7 @@ define("profil/templates/application", ["exports"], function (exports) {
         var el6 = dom.createTextNode("\n					");
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("a");
-        dom.setAttribute(el6, "href", "assets/CVStephanieNoelEN.pdf");
+        dom.setAttribute(el6, "href", "assets/CVStephanieNoel.pdf");
         var el7 = dom.createElement("i");
         dom.setAttribute(el7, "class", "glyphicon glyphicon-download-alt big-size");
         dom.appendChild(el6, el7);
@@ -7613,7 +7613,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("profil/app")["default"].create({"name":"profil","version":"0.0.0+c461fc27"});
+  require("profil/app")["default"].create({"name":"profil","version":"0.0.0+bd9ea2b7"});
 }
 
 /* jshint ignore:end */
